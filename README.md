@@ -5,6 +5,11 @@ Web page to be tested by automated test tooling
 To run this project locally you need to have the following installed on your system:
 * Docker
 
+## Nginx & Docker
+The webpage runs inside a Nginx webserver. The official [Nginx Docker image](https://hub.docker.com/_/nginx) is used.
+
+All html, css and javascript in the html folder in this project is mounted to the html folder in the Docker container. This means all changes made in the local html folder are immediately (after save and refresh of the browser) in the webpage.
+
 ## Run the webpage
 To run the webpage run the following command:
 ```bash
