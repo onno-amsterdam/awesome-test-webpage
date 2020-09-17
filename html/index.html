@@ -1,17 +1,35 @@
 <!DOCTYPE html>
 <html>
-    <header>
-        <link rel="stylesheet" href="css/homepage.css">
-    </header>
-    <body>
-        <div class="content">
-            <div class="grid-container">
-                <div class="headerContainer grid-item"><p>Header Container</p></div>
-                <div class="menuLeftContainer grid-item"><p>Menu Left Container</p></div>
-                <div class="areaCenterContainer grid-item"><p>Area Center Container</p></div>
-                <div class="menuRightContainer grid-item"><p>Menu Right Container</p></div>
-                <div class="footerContainer grid-item"><p>Footer Container</p></div>
+  <header>
+    <link rel="stylesheet" href="css/homepage.css" />
+    <link rel="stylesheet" href="css/hover-dropdown.css">
+    <script src="javascript/scripts.js"></script>
+  </header>
+  <body>
+    <div class="content">
+      <div class="grid-container">
+        <div class="headerContainer grid-item"><p>Header Container</p></div>
+        <div class="menuLeftContainer grid-item">
+          <p>Menu Left Container</p>
+        </div>
+        <div class="areaCenterContainer grid-item">
+          <p>Area Center Container</p>
+          <h2 id="to-be-removed">I will disappear in 2 seconds after delayed action!</h2>
+          <div id="to-receive-new-element"></div>
+        </div>
+        <div class="menuRightContainer grid-item">
+          <p>Menu Right Container</p>
+          <div class="dropdown">
+            <button class="dropbtn">Delayed Actions</button>
+            <div class="dropdown-content">
+              <a href="#" onclick="removeItemDelayed()" id="remove-element">Remove Element</a>
+              <a href="#" onclick="addItemDelayed()" id="add-element">Add Element</a>
+              <a href="#" onclick="showAlertDelayed()" id="show-alert">Show Alert</a>
             </div>
         </div>
-    </body>
+        </div>
+        <div class="footerContainer grid-item"><p>Footer Container</p></div>
+      </div>
+    </div>
+  </body>
 </html>
