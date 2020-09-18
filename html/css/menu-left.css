@@ -1,0 +1,11 @@
+.menu-item {
+    text-align: center;
+    background-color: yellowgreen;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 5px;
+    margin: 3px 8px 0px;
+}
+
+.table {
+    background-color: burlywood;
+}
