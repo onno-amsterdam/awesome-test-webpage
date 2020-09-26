@@ -3,7 +3,7 @@ Web page to be tested by automated test tooling
 
 ## Automated test frameworks
 This very simple webpage and it's functionality is created to serve as a test webpage to be tested by test automation frameworks. The following frameworks cover the functionality with automated tests:
-* (protractor-cucumber-typescript)[https://github.com/onno-amsterdam/protractor-cucumber-typescript]
+* [protractor-cucumber-typescript](https://github.com/onno-amsterdam/protractor-cucumber-typescript)
 
 ## Project requirements
 To run this project locally you need to have the following installed on your system:
