@@ -16,7 +16,7 @@
 .grid-item {
     background-color: rgba(255, 255, 255, 0.8);
     border: 1px solid rgba(0, 0, 0, 0.8);
-    font-size: 15px;
+    font-size: 10px;
 }
 
 .object-title {
@@ -41,4 +41,9 @@
 
 .footerContainer {
     grid-column: 1 / span 4;
+}
+
+.blue-button {
+    color:blue;
+    background-color:cornflowerblue;
 }

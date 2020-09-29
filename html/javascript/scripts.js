@@ -4,6 +4,14 @@ function removeItemDelayed() {
     }, 5000);
 }
 
+function showAlert(text) {
+    if(text){
+        alert(text);
+    } else {
+        alert('This is an alert!');
+    }    
+}
+
 function showAlertDelayed() {
     setTimeout(function(){
         alert('This is an alert!')
